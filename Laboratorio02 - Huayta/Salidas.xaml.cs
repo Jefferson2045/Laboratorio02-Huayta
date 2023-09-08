@@ -10,31 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Laboratorio02___Huayta
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para Salidas.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Salidas : Window
     {
-        public MainWindow()
+        public Salidas()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Window1 window = new Window1();
-            this.Close();
-            window.Show();
-        }
-
-        private void txtUser_DpiChanged(object sender, DpiChangedEventArgs e)
-        {
-
         }
     }
 }

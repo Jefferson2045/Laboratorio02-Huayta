@@ -8,4 +8,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="icons8-user-30.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons8-user-30.png" />
+  </ItemGroup>
+
 </Project>

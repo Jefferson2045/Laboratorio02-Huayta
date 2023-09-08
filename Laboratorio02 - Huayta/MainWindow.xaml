@@ -6,7 +6,18 @@
         xmlns:local="clr-namespace:Laboratorio02___Huayta"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button />
-    </Grid>
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel>
+            <Label Content="Ingresar Usuario"></Label>
+            <TextBox></TextBox>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="Ingresar Contraseña"></Label>
+            <TextBox></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Ingresar" Height="30" Width="200" Background="GreenYellow" Click="Button_Click"/>
+            <Button Content="Cancelar" Height="30" Width="200" Background="IndianRed" Click="Button_Click"/>
+        </StackPanel>
+    </StackPanel>
 </Window>
